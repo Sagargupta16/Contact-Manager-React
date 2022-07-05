@@ -69,7 +69,7 @@
 
  <h2 id="Project-Images"> Project-Images</h2>
  
-  <img src="images/1_1.png" alt="Portfolio" width="100%" height="600">
-  <img src="images/1_2.png" alt="Portfolio" width="100%" height="600">
-  <img src="images/1_3.png" alt="Portfolio" width="100%" height="600">
-  <img src="images/1_4.png" alt="Portfolio" width="100%" height="600">
+  <img src="images/1_1.png" alt="contact-manager" width="100%" height="600">
+  <img src="images/1_2.png" alt="contact-manager" width="100%" height="600">
+  <img src="images/1_3.png" alt="contact-manager" width="100%" height="600">
+  <img src="images/1_4.png" alt="contact-manager" width="100%" height="600">
