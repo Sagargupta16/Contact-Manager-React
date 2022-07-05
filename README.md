@@ -26,7 +26,7 @@
 <h2 id="language-and-description"> 💻 Tech Stack </h2>
 
 <ul>
-  <li><b>Basics</b> - HTML, CSS, Javascript. </li>
+  <li><b>Basics</b> - HTML, CSS, and Javascript. </li>
   <li><b>Client</b> - React, Redux, and React Router . </li>
 </ul>
 
