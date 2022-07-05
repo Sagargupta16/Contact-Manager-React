@@ -22,15 +22,12 @@
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-<!-- Languages and Tools -->
-<h2 id="language-and-description"> 💻 Language and Tools Used</h2>
+<!-- Tech Stack -->
+<h2 id="language-and-description"> 💻 Tech Stack </h2>
 
 <ul>
-  <li><b>HTML</b> - Implemented Site Structure Using HTML.</li>
-  <li><b>CSS</b> - To control presentation, formatting, and layout used CSS.</li>
-  <li><b>JavaScript</b> - To control the behavior of different elements used JS.</li>
-  <li><b>React</b> - To manage all components and bind them together</li>
-  <li><b>VS Code</b> - Editor to maintain project and Work on it.</li>
+  <li><b>Basics</b> - HTML, CSS, Javascript. </li>
+  <li><b>Client</b> - React, Redux, and React Router . </li>
 </ul>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
