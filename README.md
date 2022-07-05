@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+<h1 align="Center">Contact Manager</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h5 align="center"> Project deployed link -> <a href="https://sagargupta16.github.io/contact-manager/">Contact Manager</a></h5>
 
-## Available Scripts
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-In the project directory, you can run:
+<!-- ABOUT THE PROJECT -->
+<h2 id="about-the-project"> :pencil: About The Project</h2>
 
-### `npm start`
+<p align="justify"> 
+  Conatact Manger is web application that allows users to manage their contact with there privacy.
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<!-- OVERVIEW -->
+<h2 id="overview"> :cloud: Overview</h2>
 
-### `npm test`
+<p align="justify"> 
+  This Project is created as React App , This Contains adding contacts , editing them ,deleting them and searching feature followed with each contact individual detail section. Project also contains Switching between dark and light mode . and you progress is saved in local storage so next time you visit your data will be same as last time you left, this project have 0 refresh rate which done by using routers.
+</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-### `npm run build`
+<!-- Languages and Tools -->
+<h2 id="language-and-description"> 💻 Language and Tools Used</h2>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<ul>
+  <li><b>HTML</b> - Implemented Site Structure Using HTML.</li>
+  <li><b>CSS</b> - To control presentation, formatting, and layout used CSS.</li>
+  <li><b>JavaScript</b> - To control the behavior of different elements used JS.</li>
+  <li><b>React</b> - To manage all components and bind them together</li>
+  <li><b>VS Code</b> - Editor to maintain project and Work on it.</li>
+</ul>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!-- PROJECT FILES DESCRIPTION -->
+<h2 id="project-files-description"> :floppy_disk: Project Files Description</h2>
 
-### `npm run eject`
+<ul>
+  <li><b>public/index.html</b> - This File contains stylesheets links and root div.</li>
+  <li><b>src/components/App.js</b> - This Js File imports all other js component files and binds them together with help of router. Its Content is in all over routes</li>
+  <li><b>src/components/AddContact.js</b> - This Contains html structure of /addcontact route which takes data in form based and pass it to app.js which stores it to the local storage.</li>
+  <li><b>src/components/App.css</b> - This Contains All styling of each route pages.</li>
+  <li><b>src/components/ContactCart.js</b> - (card*) This Contains Contact list each individual card detail displayed on front page and edit and delete button as well.</li>
+  <li><b>src/components/ContactDetails.js</b> - This contains details of individual contacts when tapped on them.</li>
+  <li><b>src/components/ContactList.js</b> - This Contains Full List of All Contacts. that is being displayed on front page. </li>
+  <li><b>src/components/EditContact.js</b> - This File Contains the editing page Ui where you can edit contact detail from old data. </li>
+  <li><b>src/components/Header.js</b> - This contains Header part which is fixed part for every route.</li>
+  <li><b>src/components/darkmode.js</b> - This contains Dark mode switching feature onclick and also keeps saved mode to local storage. </li>
+  <li><b>src/components/predata.js</b> - This is array of data which is given from before.</li>
+  <li><b>src/index.js</b> - This binds App.js to Html root div.</li>
+</ul>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+ 
+<h2 id="local build"> How you can you run it Locally</h2>
+<ul>
+  <li><b>Step-1 </b> - go to code section above and download it as zip. </li>
+  <li><b>Step-2 </b> - extract the zip file than open the extracted folder in Vscode. </li>
+  <li><b>Step-3 </b> - press ctrl+j in windows it will opern terminal to this folder. </li>
+  <li><b>Step-4 </b> - now run command npm start which will launch this in localhost:3000. (if it not redirect you than manually search localhost:3000. </li>
+  <li><b>Step-5 </b> - Done now you will be able to see project running on your system. </li>
+</ul>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+ <h2 id="Project-Images"> Project-Images</h2>
 
-## Learn More
+<img src="images/1_1.png" alt="Portfolio" width="100%" height="600">
+<img src="images/1_2.png" alt="Portfolio" width="100%" height="600">
+<img src="images/1_3.png" alt="Portfolio" width="100%" height="600">
+<img src="images/1_4.png" alt="Portfolio" width="100%" height="600">
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
