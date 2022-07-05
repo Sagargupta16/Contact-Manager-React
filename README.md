@@ -55,7 +55,7 @@
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
  
-<h2 id="local build"> 📼 How you can you run it Locally</h2>
+<h2 id="local build"> 📼 How you can run it Locally</h2>
 <ul>
   <li><b>Step-1 </b> - go to code section above and download it as zip. </li>
   <li><b>Step-2 </b> - extract the zip file than open the extracted folder in Vscode. </li>
