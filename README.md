@@ -69,5 +69,4 @@
 
  <h2 id="Project-Images"> Project-Images</h2>
 
-https://github.com/Sagargupta16/contact-manager/blob/master/cmtute.mp4
-
+<img src=""  >
