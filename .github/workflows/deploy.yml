@@ -1,0 +1,23 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+    deploy:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v2
+            - uses: actions/setup-node@v1
+              with:
+                  node-version: 12
+            - run: npm install
+            - run: npm run build
+            - uses: JamesIves/github-pages-deploy-action@releases/v3
+              with:
+                  branch: gh-pages
+                  folder: build
+                  clean: true
+                  token: ${{ secrets.GITHUB_TOKEN }}
