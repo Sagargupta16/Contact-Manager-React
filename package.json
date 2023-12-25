@@ -1,7 +1,7 @@
 {
-  "name": "contact-manager",
+  "name": "contact-manager-react",
   "version": "0.1.0",
-  "homepage": "https://sagargupta.me/contact-manager",
+  "homepage": "https://sagargupta.me/Contact-Manager-React",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
