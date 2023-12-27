@@ -1,6 +1,6 @@
 <h1 align="Center">Contact Manager</h1>
 
-<h5 align="center"> Project deployed link -> <a href="https://sagargupta16.github.io/contact-manager/">Contact Manager</a></h5>
+<h5 align="center"> Project deployed link -> <a href="https://sagargupta.me/Contact-Manager-React/">Contact Manager</a></h5>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
