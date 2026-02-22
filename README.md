@@ -1,74 +1,99 @@
-<h1 align="Center">Contact Manager</h1>
+# Contact Manager (React)
 
-<h5 align="center"> Project deployed link -> <a href="https://sagargupta.life/Contact-Manager-React/">Contact Manager</a></h5>
+A client-side contact management application built with React -- featuring localStorage persistence, dark/light mode, and zero-refresh navigation.
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=flat&logo=reactrouter&logoColor=white)
+![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=flat&logo=githubpages&logoColor=white)
 
-<!-- ABOUT THE PROJECT -->
-<h2 id="about-the-project"> :pencil: About The Project</h2>
+## Live Demo
 
-<p align="justify"> 
-  Conatact Manger is web application that allows users to manage their contact with there privacy.
-</p>
+[sagargupta.life/Contact-Manager-React](https://sagargupta.life/Contact-Manager-React/)
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+## Overview
 
-<!-- OVERVIEW -->
-<h2 id="overview"> :cloud: Overview</h2>
+A standalone React frontend contact manager that stores all data in the browser's localStorage. No backend server required -- all CRUD operations happen client-side with persistent storage. Features include search/filter, dark/light mode, and individual contact detail views.
 
-<p align="justify"> 
-  This Project is created as React App , This Contains adding contacts , editing them ,deleting them and searching feature followed with each contact individual detail section. Project also contains Switching between dark and light mode . and you progress is saved in local storage so next time you visit your data will be same as last time you left, this project have 0 refresh rate which done by using routers.
-</p>
+## Features
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+- **Full CRUD Operations** -- Add, edit, delete contacts
+- **Search & Filter** -- Find contacts by name or email
+- **Contact Details** -- View individual contact information
+- **Dark/Light Mode** -- Persistent theme preference via localStorage
+- **Data Persistence** -- All contacts stored in localStorage
+- **Zero-Refresh Navigation** -- React Router for SPA experience
+- **Responsive Design** -- Works on all screen sizes
+- **Pre-loaded Data** -- Sample contacts included for demo
 
-<!-- Tech Stack -->
-<h2 id="language-and-description"> 💻 Tech Stack </h2>
+## Tech Stack
 
-<ul>
-  <li><b>Basics</b> - HTML, CSS, and Javascript. </li>
-  <li><b>Client</b> - React, Redux, and React Router . </li>
-</ul>
+| Technology | Version |
+|-----------|---------|
+| React | 18.3.1 |
+| React Router DOM | 6.30.1 |
+| Redux | State management |
+| UUID | Unique contact IDs |
+| CSS | Custom styling |
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+## Project Structure
 
-<!-- PROJECT FILES DESCRIPTION -->
-<h2 id="project-files-description"> :floppy_disk: Project Files Description</h2>
+```
+Contact-Manager-React/
+├── public/
+│   └── index.html
+├── src/
+│   └── components/
+│       ├── App.js              # Root with routing
+│       ├── App.css             # All styling
+│       ├── AddContact.js       # Add contact form
+│       ├── EditContact.js      # Edit contact form
+│       ├── ContactList.js      # Contact list display
+│       ├── ContactCart.js      # Individual contact card
+│       ├── ContactDetail.js    # Contact detail view
+│       ├── Header.js           # App header
+│       ├── darkmode.js         # Theme toggle
+│       └── predata.js          # Sample seed data
+├── images/                     # Screenshots
+└── package.json
+```
 
-<ul>
-  <li><b>public/index.html</b> - This File contains stylesheets links and root div.</li>
-  <li><b>src/components/App.js</b> - This Js File imports all other js component files and binds them together with help of router. Its Content is in all over routes</li>
-  <li><b>src/components/AddContact.js</b> - This Contains html structure of /addcontact route which takes data in form based and pass it to app.js which stores it to the local storage.</li>
-  <li><b>src/components/App.css</b> - This Contains All styling of each route pages.</li>
-  <li><b>src/components/ContactCart.js</b> - (card*) This Contains Contact list each individual card detail displayed on front page and edit and delete button as well.</li>
-  <li><b>src/components/ContactDetails.js</b> - This contains details of individual contacts when tapped on them.</li>
-  <li><b>src/components/ContactList.js</b> - This Contains Full List of All Contacts. that is being displayed on front page. </li>
-  <li><b>src/components/EditContact.js</b> - This File Contains the editing page Ui where you can edit contact detail from old data. </li>
-  <li><b>src/components/Header.js</b> - This contains Header part which is fixed part for every route.</li>
-  <li><b>src/components/darkmode.js</b> - This contains Dark mode switching feature onclick and also keeps saved mode to local storage. </li>
-  <li><b>src/components/predata.js</b> - This is array of data which is given from before.</li>
-  <li><b>src/index.js</b> - This binds App.js to Html root div.</li>
-</ul>
+## Getting Started
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+### Prerequisites
 
-<h2 id="local build"> 📼 How you can run it Locally</h2>
-<ul>
-  <li><b>Step-1 </b> - go to code section above and download it as zip. </li>
-  <li><b>Step-2 </b> - extract the zip file than open the extracted folder in Vscode. </li>
-  <li><b>Step-3 </b> - press ctrl+j in windows it will opern terminal to this folder. </li>
-  <li><b>Step-4 </b> - now run command npm start which will launch this in localhost:3000. (if it not redirect you than manually search localhost:3000. </li>
-  <li><b>Step-5 </b> - Done now you will be able to see project running on your system. </li>
-</ul>
+- Node.js 16+
+- npm
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+### Installation
 
- <h2 id="Project-Images"> Project-Images</h2>
- 
-  <img src="images/1_1.png" alt="contact-manager" width="100%" height="500">
-  <img src="images/1_2.png" alt="contact-manager" width="100%" height="500">
-  <img src="images/1_3.png" alt="contact-manager" width="100%" height="500">
-  <img src="images/1_4.png" alt="contact-manager" width="100%" height="500">
-  <img src="images/1_5.png" alt="contact-manager" width="100%" height="500">
-  <img src="images/1_6.png" alt="contact-manager" width="100%" height="500">
-  <img src="images/1_7.png" alt="contact-manager" width="100%" height="500">
+```bash
+git clone https://github.com/Sagargupta16/Contact-Manager-React.git
+cd Contact-Manager-React
+npm install
+```
+
+### Running
+
+```bash
+npm start
+# Open http://localhost:3000
+```
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+## Screenshots
+
+<img src="images/1_1.png" alt="Contact Manager" width="100%">
+<img src="images/1_2.png" alt="Contact Manager" width="100%">
+
+## Related
+
+- [Contact-Manager-Mern](https://github.com/Sagargupta16/Contact-Manager-Mern) -- Full-stack version with MongoDB backend
+
+## License
+
+MIT
