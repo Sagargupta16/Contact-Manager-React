@@ -8,7 +8,7 @@ A client-side contact management application built with React -- featuring local
 
 ## Live Demo
 
-[sagargupta.life/Contact-Manager-React](https://sagargupta.life/Contact-Manager-React/)
+[sagargupta.online/Contact-Manager-React](https://sagargupta.online/Contact-Manager-React/)
 
 ## Overview
 
